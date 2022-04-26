@@ -1,0 +1,15 @@
+{
+  "name": "charity-api",
+  "version": "1.0.0",
+  "description": "api used for retrieving data from the charitybase.UK api via graphql",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sher",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^3.6.7",
+    "graphql": "^16.3.0"
+  }
+}

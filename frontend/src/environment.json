@@ -1,0 +1,9 @@
+{
+    "charitybase": {
+        "uri": "https://charitybase.uk/api/graphql",
+        "apikey": "Apikey 9631d2ea-ebf4-4c9f-8e3e-c246d64dc9b9",
+        "skip": 5000,
+        "incomeValue": 10000,
+        "adminUser": "Sher"
+    }
+}

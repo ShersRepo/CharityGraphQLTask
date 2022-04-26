@@ -1,0 +1,305 @@
+.page-header {
+  text-align: center;
+  margin: 40px 0px;
+  color: rgb(100, 100, 100);
+}
+
+.spinner-container {
+  text-align: center;
+  font-size: 20px;
+  padding: 20%;
+}
+
+.error-container {
+  text-align: center;
+  font-size: 20px;
+  padding: 20%;
+}
+
+.nav-tabs li {
+  width: 200px !important;
+}
+
+#charity-view-back-button {
+  width: 10%;
+  height: 32px;
+}
+
+/* Charity View about section */
+
+.charity-view-about-container {
+  text-align: center;
+}
+
+.row .charity-view-about-row {
+  margin: 50px 50%;
+}
+
+/* End of Charity view about section */
+
+.card-title.charity-view-card-title {
+  background-color: lightgray;
+}
+
+/* Charity Finances about section */
+
+.charity-view-finances-row {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row .charity-view-finances-col {
+  margin-top: 50px;
+  border: 1px solid lightgray;
+  height: 100%;
+}
+
+.card-body {
+  padding-bottom: 80px !important;
+}
+
+/* End of Charity Finances about section */
+
+
+.charity-view-tabs {
+  margin-left: 100px;
+}
+
+.charity-view-tabs .nav-link.active {
+  color: #0d6efd !important;
+}
+
+
+.charity-view-tabs .nav-item button {
+  color: rgb(87, 87, 87) !important;
+}
+
+
+.charity-view-tabs .nav-item button:focus, .charity-view-tabs .nav-item button:hover {
+  color: #0d6efd !important;
+}
+
+/* Popover styling */
+
+.popover-contact-header {
+  font-weight: 600;
+}
+
+#popover-charity-contact-details {
+  background-color: #6c757d;
+}
+
+.popover-body#contact-details{
+  color: #fff!important;
+
+}
+
+/* End of Popover styling */
+
+
+/* Charity card styling */
+
+.charity-card {
+  margin-left: 5%;
+  margin-right: 5%;
+  height: 100%;
+}
+
+.charity-card-container {
+  margin-top: 3%;
+  margin-bottom: 5%;
+  margin-left: 7%;
+  margin-right: 7%;
+}
+
+.charity-card-group-container {
+  margin-top: 10px !important;
+}
+
+.charity-card-title.h5 {
+  font-size: 15px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #6c757d;
+  text-align: left !important;
+}
+
+.charity-card-activities {
+  font-size: 12x;
+  text-align: left;
+}
+
+.charity-card-figures {
+  font-size: 16px;
+  font-weight: 600;
+  color: #343a40;
+  padding-right: 16px;
+  text-align: right;
+}
+
+.charity-card-figures span {
+  display:block;
+}
+
+/* End of Charity card styling */
+
+/* Charity table styling */
+
+.charity-table {
+  width: 75%;
+  margin: auto;
+  margin-top: 3%;
+  text-align: center;
+}
+
+.charity-table-column-cell {
+  padding: 0px 40px !important;
+  border-left: 1px solid #6c757d;
+
+}
+
+.charity-table-row {
+  height: 150px;
+  border: 1px solid #6c757d;
+  vertical-align: middle;
+}
+
+#charity-table-id-column-cell {
+  background-color: #f5f6fd;
+}
+
+charity-table-icon-column-cell {
+  border-left: 0.5px solid #6c757d;
+  width: 5%;
+}
+
+/* End of Charity table styling */
+
+
+
+/* Search bar styling */
+
+.charity-search-bar {
+  width: 500px !important;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+/* End of search bar styling */
+
+
+/* Nav header styling */
+.nav-item a {
+  color: #fff !important;
+  border: transparent !important;
+  background: transparent !important;
+}
+
+.app-header-text {
+  color: #fff;
+  width: 20%;
+  margin-left: 20px;
+  font-size: 11px;
+}
+
+.nav-link {
+  width: 90% !important;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.nav-tabs {
+  background: transparent;
+  align-items: center;
+  width: 90%;
+}
+
+.nav-link:focus, .nav-link:hover {
+  color: #f5f6fd !important;
+  background: transparent !important;
+  border-left: 1px solid #fff !important;
+  border-right: 1px solid #fff !important;
+}
+
+.nav-link.active {
+  border-bottom: 1px solid #f5f6fd !important;
+  border-left: 1px solid #fff !important;
+  border-right: 1px solid #fff !important;
+}
+
+.header-container {
+  background-image: linear-gradient(-45deg,#26158e,#6b4bf9);
+}
+
+.app-header {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.app-header-item {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  width: 10% !important;
+}
+
+/* End of Nav header styling */
+
+
+
+/* Button type styling */
+.btn.btn-primary {
+  background-image: linear-gradient(90deg,hsla(0,0%,100%,.12),hsla(0,0%,100%,.3) 50%,hsla(0,0%,100%,.12)) !important;
+  border-color: white !important;
+}
+
+.btn.btn-secondary {
+  /* background-image: linear-gradient(90deg,hsla(0,0%,100%,.12),hsla(0,0%,100%,.3) 50%,hsla(0,0%,100%,.12)) !important; */
+  border-color: white !important;
+}
+
+#contact-details-button {
+  margin-left: 20px;
+}
+
+
+
+/* End of Button type styling */
+
+
+
+
+.App {
+  text-align: center;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
